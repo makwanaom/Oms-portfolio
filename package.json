@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/makwanaom/Oms-portfolio.git",
+  "homepage": "https://makwanaom.github.io/Oms-portfolio",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
