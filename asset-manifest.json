@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Oms-portfolio/static/css/main.2b1c1cc3.css",
+    "main.js": "/Oms-portfolio/static/js/main.235216e9.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Oms-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/logo-9.png": "/Oms-portfolio/static/media/logo-9.8107d48ba4f4c94bbd82.png",
+    "static/media/logo-10.png": "/Oms-portfolio/static/media/logo-10.9e48dcc68806e83247bb.png",
+    "static/media/logo-2.png": "/Oms-portfolio/static/media/logo-2.14a97431e9f569408d6e.png",
+    "static/media/logo-3.png": "/Oms-portfolio/static/media/logo-3.cbf94710abfb099a6c9a.png",
+    "static/media/logo-8.png": "/Oms-portfolio/static/media/logo-8.9ce27101c6698e58c63d.png",
+    "static/media/file_pdf.pdf": "/Oms-portfolio/static/media/file_pdf.c91c5096376a03929bbf.pdf",
+    "static/media/logo-4.png": "/Oms-portfolio/static/media/logo-4.44a9c261adad73cc1d03.png",
+    "index.html": "/Oms-portfolio/index.html",
+    "main.2b1c1cc3.css.map": "/Oms-portfolio/static/css/main.2b1c1cc3.css.map",
+    "main.235216e9.js.map": "/Oms-portfolio/static/js/main.235216e9.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Oms-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b1c1cc3.css",
+    "static/js/main.235216e9.js"
+  ]
+}
