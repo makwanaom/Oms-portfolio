@@ -1,0 +1,283 @@
+.get-touch{
+    margin-left: 150px;
+    color: white;
+    font-size: x-large;
+    animation: text-animation 2s ease-in-out infinite;
+    color: #00FFFF;
+}
+@keyframes text-animation {
+    0% {
+        transform: translateY(0);
+        color: #FFA500;
+      }
+      50% {
+        transform: translateY(-10px);
+        color: #00FF7F;
+      }
+      100% {
+        transform: translateY(0);
+        color: #00FFFF;
+      }
+    
+}
+
+
+/* style for form */
+
+.contact-form{
+    margin-left: 150px;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #333;
+  box-shadow: 0 0 5px #333;
+}
+
+.contact-form button[type="submit"] {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.contact-form {
+  animation: form-animation 1s ease-in-out;
+}
+
+@keyframes form-animation {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+li.half{
+    /* width: 49%; */
+    margin-left: 2%;
+    float: left;
+    clear: none;
+}
+
+li.half:first-child{
+    margin-left: 0;
+}
+
+.contact-form[type='text'],
+[type='email']{
+    width: 100%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.contact-form[type='text']{
+    width: 100%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.txt{
+    width: 100%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.sbj{
+    width: 500px;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 500px;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 150px;
+}
+
+.flat-button{
+    color: #ffd700;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700 ;
+    /* float: right; */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.detail-map{
+  position: fixed;
+  background-color: #000;
+  top: 80px;
+  right: 25%;
+  z-index: 999999;
+  width: 267px;
+  padding: 20px;
+  color: #fff;
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 17px;
+  font-weight: 300;
+  
+  
+
+}
+span{
+  font-size: 16px;
+  display: block;
+  padding-top: 20px;
+  color: #ffd700;
+}
+
+.bg-map{
+  background: rgba(8, 253,216, 0.1);
+  float: right;
+  width: 30%;
+  height: 80%;
+  top: 30px;
+  margin: 10px 20px 0px 62vw;
+   position:absolute;
+  
+  
+}
+
+
+
+/* .map-wrap{
+  width: 100%;
+  height: 300px;
+  position:relative;
+} */
+
+.leaflet-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  animation: blink 2s;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media screen and (max-width :760px){
+
+  .get-touch,.contact-form{
+    margin-left: 50px;
+    size: 80%;
+  }
+  .bg-map{
+    background: rgba(8, 253,216, 0.1);
+    float: right;
+    width: 90%;
+    height: 40%;
+
+    margin: 80vh 20px 30px 20px;
+     position:absolute;
+    
+  }
+
+  .detail-map{
+    float: right;
+    margin-top: 75vh;
+    position: absolute;
+  }
+
+}
+
+
+@media screen and (max-width :480px){
+
+  .get-touch,.contact-form{
+    margin-left: 50px;
+  }
+  .container-contact{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bg-map{
+  float:left ;
+  width: 85%;
+  height: 30%;
+  margin: 90vh 20px 30px 30px;
+  padding-bottom: 30px;
+  position:absolute;
+  }
+
+  .contact-form{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    height: 20%;
+    margin-top: 10px;
+  }
+
+  .detail-map{
+ visibility: hidden;
+   
+  }
+
+  li.half{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .bg-map{
+    margin-top: 600px;
+  }
+  /* .leaflet-container{
+    margin-top: 100px;
+  } */
+
+h1{
+
+  margin-left: 50px;
+  }
+}

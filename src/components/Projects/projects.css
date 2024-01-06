@@ -1,0 +1,124 @@
+.projects-all {
+    margin-left: 200px;
+}
+
+.no-of-cards{
+    display: flex;
+      
+    flex-direction: row;
+}
+
+
+.card {
+    width: 25%;
+
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+    animation: card-animation 1s ease-in-out;
+}
+@keyframes card-animation {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: ease-in 1s;
+}
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+
+}
+
+.title-w {
+
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+    color: #fff;
+}
+
+
+.des {
+    padding: 10px;
+    text-align: center;
+
+    padding-top: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+ p{
+    color: rgb(225, 161, 43); 
+    font-size: 15px;
+ }
+.git--btn {
+
+  background-color: black;
+    margin-top: 20px;
+    /* margin-bottom: 10px;  */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+  text-decoration: none;
+}
+.git--btn:hover{
+    background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.gts{
+    text-decoration: none;
+}
+
+ /*---------------------------------------------- responsive :start -------------------------------------------*/
+
+
+
+ 
+ @media screen and (max-width :720px){
+
+    .no-of-cards{
+        display: flex;
+     
+        flex-direction: row;
+
+        margin: 0px 0px 10px -20%;
+    }
+ }
+ @media screen and (max-width :480px){
+
+
+    .no-of-cards{
+        display: flex;
+        flex-direction: column;
+
+
+        margin: 0px 0px 10px -40%;
+    }
+
+    .card {
+        width: 80%;
+        height: 50%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 5% 0 0 -10%;
+        padding-left: -10%;
+        animation: card-animation 1s ease-in-out;
+    }
+ }
